@@ -1,4 +1,4 @@
-package com.example.juegoscompose.ui.theme.screen
+package com.example.juegoscompose.ui.screen
 
 import androidx.lifecycle.ViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
