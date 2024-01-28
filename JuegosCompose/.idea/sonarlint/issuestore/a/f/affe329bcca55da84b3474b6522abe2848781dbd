@@ -1,0 +1,9 @@
+
+skotlin:S101"PRename class "cambiarPrecio" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(ĞÉığüÿÿÿÿ8áøÕ1
+rkotlin:S101	"ORename class "cambiarFecha" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(¯…‘ÿÿÿÿÿ8áøÕ1
+nkotlin:S101
+"PRename class "cambiarnombre" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(ÏĞ¼ø8áøÕ1
+ikotlin:S101"KRename class "addJuego" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(öÉ±­8áøÕ1
+lkotlin:S101"NRename class "cargarJuego" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(¢æ¾8áøÕ1
+lkotlin:S101"NRename class "deleteJuego" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(øŒ“8áøÕ1
+qkotlin:S101"NRename class "updateJuego" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(Ô›Ùîúÿÿÿÿ8áøÕ1
