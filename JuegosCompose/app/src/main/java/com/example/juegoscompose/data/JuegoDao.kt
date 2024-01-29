@@ -6,8 +6,7 @@ import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
 import com.example.juegoscompose.data.model.JuegoEntity
-import com.example.juegoscompose.domain.model.Juego
-import java.util.concurrent.Flow
+
 
 @Dao
 interface JuegoDao {
@@ -23,4 +22,10 @@ interface JuegoDao {
 
     @Delete
     suspend fun delete(juegoEntity: JuegoEntity)
+    @Query("SELECT * FROM juego ORDER BY id DESC LIMIT 1")
+    suspend fun getLastJuego(): JuegoEntity
+
+    @Query("SELECT * FROM juego LIMIT 1")
+    suspend fun getFirstJuego(): JuegoEntity
+
 }

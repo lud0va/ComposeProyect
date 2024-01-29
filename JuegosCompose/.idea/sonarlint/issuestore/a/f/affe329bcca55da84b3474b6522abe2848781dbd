@@ -1,9 +1,11 @@
 
-skotlin:S101"PRename class "cambiarPrecio" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(ĞÉığüÿÿÿÿ8áøÕ1
-rkotlin:S101	"ORename class "cambiarFecha" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(¯…‘ÿÿÿÿÿ8áøÕ1
-nkotlin:S101
-"PRename class "cambiarnombre" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(ÏĞ¼ø8áøÕ1
-ikotlin:S101"KRename class "addJuego" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(öÉ±­8áøÕ1
-lkotlin:S101"NRename class "cargarJuego" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(¢æ¾8áøÕ1
-lkotlin:S101"NRename class "deleteJuego" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(øŒ“8áøÕ1
-qkotlin:S101"NRename class "updateJuego" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(Ô›Ùîúÿÿÿÿ8áøÕ1
+skotlin:S101"URename class "cambiarMultiplayer" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(Øƒ¦¸8Şµ£µÕ1
+skotlin:S101"PRename class "cambiarGenero" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(›â‰şÿÿÿÿ8ßµ£µÕ1
+lkotlin:S101"NRename class "cambiarDiff" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(åüú÷8ßµ£µÕ1
+skotlin:S101"PRename class "cambiarPrecio" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(ĞÉığüÿÿÿÿ8ßµ£µÕ1
+rkotlin:S101"ORename class "cambiarFecha" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(¯…‘ÿÿÿÿÿ8ßµ£µÕ1
+nkotlin:S101"PRename class "cambiarnombre" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(ÏĞ¼ø8ßµ£µÕ1
+ikotlin:S101"KRename class "addJuego" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(öÉ±­8ßµ£µÕ1
+lkotlin:S101"NRename class "cargarJuego" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(¢æ¾8ßµ£µÕ1
+lkotlin:S101"NRename class "deleteJuego" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(øŒ“8ßµ£µÕ1
+qkotlin:S101"NRename class "updateJuego" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(Ô›Ùîúÿÿÿÿ8ßµ£µÕ1

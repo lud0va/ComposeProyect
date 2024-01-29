@@ -5,8 +5,12 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
+import com.example.juegoscompose.Utils.Constantes
 import com.example.juegoscompose.data.model.JuegoEntity
 import com.example.juegoscompose.data.repository.Converters
+
+
+
 
 @Database(
     entities = [JuegoEntity::class],
@@ -21,15 +25,13 @@ abstract class JuegoDataBase :RoomDatabase(){
         private var INSTANCE: JuegoDataBase? = null
 
         fun getDatabase(context: Context): JuegoDataBase {
-            // if the INSTANCE is not null, then return it,
-            // if it is, then create the database
             return INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     JuegoDataBase::class.java,
-                    "ficha_db"
+                    Constantes.FICHA_DB
                 )
-                    .createFromAsset("database/juego.db")
+                    .createFromAsset(Constantes.DATABASE_JUEGO_DB)
                     .fallbackToDestructiveMigrationFrom(4)
                     .build()
                 INSTANCE = instance

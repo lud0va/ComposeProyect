@@ -14,6 +14,7 @@ class JuegosRepository @Inject constructor(
     private val dispatcher: CoroutineDispatcher = Dispatchers.IO
 
 ) {
+
     suspend fun getAll():List<Juego>{
         return juegoDao.getAll().map { it.toJuego() }
     }
@@ -28,6 +29,13 @@ class JuegosRepository @Inject constructor(
 
     }
 
+    suspend fun dameUltimo():Juego{
+        return juegoDao.getLastJuego().toJuego();
+    }
+
+    suspend fun damePrimero():Juego{
+        return juegoDao.getFirstJuego().toJuego();
+    }
     suspend fun deleteJuego(juego: Juego) {
         return juegoDao.delete(juego.toJuegoEntity())
 

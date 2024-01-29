@@ -2,6 +2,7 @@ package com.example.juegoscompose.data.di
 
 import android.content.Context
 import androidx.room.Room
+import com.example.juegoscompose.Utils.Constantes
 import com.example.juegoscompose.data.JuegoDao
 import com.example.juegoscompose.data.JuegoDataBase
 import dagger.Module
@@ -13,6 +14,8 @@ import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import javax.inject.Singleton
 
+
+
 @Module
 @InstallIn(SingletonComponent::class)
 object DataBaseModule {
@@ -23,7 +26,7 @@ object DataBaseModule {
         return Room.databaseBuilder(
             appContext,
             JuegoDataBase::class.java,
-            "app.db"
+            Constantes.APP_DB
         ).fallbackToDestructiveMigration()
             .build()
     }
